@@ -1,8 +1,12 @@
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://task-master-flask.herokuapp.com/)
+
 # Task Master
 
 This is a simple **CRUD** _(create, read, update and delete)_ Python application to create and manage user's to-do list. It uses Flask framework, SQLite and SQLAlchemy.
 
 This app is based on [FreeCodeCamp's Flask tutorial](https://www.youtube.com/watch?v=Z1RJmh_OqeA&t=518s) with additional modifications made to the frontend such as implementation of Bootstrap library and general CSS styling.
+
+For your convenience app is also deployed to Heroku.
 
 ## Built With
 
