@@ -1,0 +1,29 @@
+{% extends 'base.html' %} {% block head %} <title>Taskmaster</title>{% endblock
+%} {% block body %}
+<div class="content">
+  <h4>Update task</h4>
+  <div class="form">
+    <form action="/update/{{task.id}}" , method="POST" class="form-inline">
+      <label for="new-task-input" class="sr-only">Update the task</label>
+      <input
+        type="text"
+        name="content"
+        id="content"
+        value="{{task.content}}"
+        class="form-control mr-sm-2"
+        style="width: 600px"
+      />
+      <button
+        type="submit"
+        class="btn btn-primary"
+        type="submit"
+        value="Add Task"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+  <footer><a href="https://github.com/sid2021">by sid2021</a></footer>
+</div>
+
+{% endblock %}
